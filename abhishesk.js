@@ -56,7 +56,7 @@ var age = currentYear-year
 console.log({age,currentYear,birthYear})
 if(age > 55 || age < 18){
     document.getElementById('dob').style='border:1px solid red'
-  return  alert("Age must be between 18 and 55")
+  return  alert("Age must be between 18 and 55 Otherwise it'll not accept")
 
 }else{
     document.getElementById('dob').style='border:none'
